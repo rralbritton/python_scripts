@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Joint Airborne LiDAR Bathymetry Technical Center of Expertise (JALBTCX)</origin>
+<pubdate>20130710</pubdate>
+<title>
+2005 US Army Corps of Engineers (USACE) National Coastal Mapping Program Topo/Bathy Lidar: Delaware, Maryland,
+New Jersey, New York, North Carolina and Virginia
+</title>
+<edition>Final</edition>
+<pubinfo>
+<pubplace>Charleston, SC</pubplace>
+<publish>NOAA's Ocean Service, Coastal Services Center (CSC)</publish>
+</pubinfo>
+<othercit>This data set has been extracted from one much larger. See the URL for the location of this larger data set.</othercit>
+<onlink>http://www.csc.noaa.gov/dataviewer/index.html?action=advsearch&amp;qType=in&amp;qFld=ID&amp;qVal=33</onlink>
+<onlink>http://www.csc.noaa.gov/lidar</onlink>
+<onlink>http://www.csc.noaa.gov</onlink>
+<onlink>http://www.csc.noaa.gov/htdata/lidar1_z/geoid12a/data/33</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+The data contained in these files are hydrographic and topographic data collected by the SHOALS-1000T system
+along the Delaware, Maryland, New Jersey, New York, North Carolina and Virginia coastline as part of the National
+Coastal Mapping Program.
+The lidar data for DE, MD, NJ and VA was collected from 20050824-20050908.
+The lidar data for NY and NC was collected from 20051001-20051126.
+
+This data set is a raster file of z values with 3164 columns and 3162 rows. The data set was generated from a larger data set and includes all valid points within the requested geographic bounds.
+</abstract>
+<purpose>
+These data were collected as a part of the National Coastal Mapping Program to depict the elevations above
+and below water for the Delaware, Maryland, New Jersey, New York, North Carolina and Virginia coastal zones.
+</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>20050824</begdate>
+<enddate>20051126</enddate>
+</rngdates>
+</timeinfo>
+<current>Ground Condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-74.2323134302671</westbc>
+<eastbc>-74.1669492403561</eastbc>
+<northbc>39.6908580319394</northbc>
+<southbc>39.6254920255515</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>Elevation</themekey>
+</theme>
+<theme>
+<themekt>None</themekt>
+<themekey>Lidar</themekey>
+<themekey>Bathymetry/Topography</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>US</placekey>
+<placekey>Delaware</placekey>
+<placekey>Maryland</placekey>
+<placekey>New Jersey</placekey>
+<placekey>New York</placekey>
+<placekey>North Carolina</placekey>
+<placekey>Virginia</placekey>
+</place>
+<temporal>
+<tempkt>None</tempkt>
+<tempkey>August 2005</tempkey>
+<tempkey>September 2005</tempkey>
+<tempkey>October 2005</tempkey>
+<tempkey>November 2005</tempkey>
+</temporal>
+</keywords>
+<accconst>
+This data set was compiled dynamically, and will exist on ftp.csc.noaa.gov/tmp/dav until 10 days
+after 07/10/2013, as 005_004_fill.zip.  After 10 days this file will be deleted from the system.
+</accconst>
+<useconst>
+Users should be aware that temporal changes may have occurred since this data set was collected and some parts
+of this data may no longer represent actual surface conditions.  Users should not use this data for critical
+applications without a full awareness of it's limitations. Any conclusions drawn from analysis of this information
+are not the responsibility of NOAA, the Coastal Services Center, or JALBTCX.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>
+Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS),
+Coastal Services Center (CSC)
+</cntorg>
+</cntorgp>
+<cntpos>Elevation Project Scientist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>2234 South Hobson Avenue</address>
+<city>Charleston</city>
+<state>South Carolina</state>
+<postal>29405</postal>
+<country>United States</country>
+</cntaddr>
+<cntvoice>(843) 740-1200</cntvoice>
+<cntemail>csc.info@noaa.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>
+Acknowledgement of the Joint Airborne Lidar Bathymetry Center of Expertise (JALBTCX) would be
+appreciated in any publications or derived products.
+</datacred>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Data are not attributed.</attraccr>
+<qattracc>
+<attraccv>N/A</attraccv>
+<attracce>These data are not attributed.</attracce>
+</qattracc>
+</attracc>
+<logic>
+Lidar data between different flight lines matched within 0.20 meters
+</logic>
+<complete>
+These data covered the required survey area with minimal gaps in data coverage.  The data postings are very
+consistent with postings at about 1.3m density.
+</complete>
+<posacc>
+<horizpa>
+<horizpar>
+FOR DE,MD,NJ,VA DATA:
+The data positions were obtained using post processed KGPS methods.  The horizontal accuracy of the data is better
+than +/- 0.75m at 1 Sigma.
+FOR NY,NC DATA:
+The data positions were obtained using post processed KGPS methods.  The horizontal accuracy of the data is better
+than +/- 3.0 m at 2 Sigma.
+</horizpar>
+</horizpa>
+<vertacc>
+<vertaccr>
+FOR DE,MD NJ,VA DATA
+The data positions were obtained using post processed KGPS methods.  The vertical accuracy of the data is better
+than +/- 0.20m at 1 Sigma.
+FOR NY,NC DATA
+The data positions were obtained using post processed KGPS methods.  The vertical accuracy of the data is better
+than +/- 0.30m at 2 Sigma.
+</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>JALBTCX(comp.)</origin>
+<pubdate>Unpublished material</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Shoreline Mapping</title>
+<geoform>globe</geoform>
+</citeinfo>
+</srccite>
+<typesrc>disc</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>20050824</begdate>
+<enddate>20051126</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>Ground Condition</srccurr>
+</srctime>
+<srccitea>05021, 05023</srccitea>
+<srccontr>
+This is an xyz dataset collected and provided by CESAM-OP-J, JALBTCX.
+</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>
+FOR DE,MD,NJ,VA DATA:
+These data were collected using a SHOALS-1000T system. It is owned and operated by Fugro Pelagos performing
+contract survey services for the US Army Corps of Engineers. The system collects topographic lidar data at 10kHz and
+hydrographic data at 1kHz.  The system also collects RGB imagery at 1Hz. Aircraft position, velocity and acceleration
+information are	collected through a combination of Novatel and POS A/V equipment.	Raw data are collected and transferred
+to the office for downloading and processing in SHOALS GCS software.	The data were collected and processed in geographic
+coordinates and ellipsoid heights.  The positions are provided relative to NAD83 in decimal degrees of longitude and latitude.
+The heights were converted from ellipsoid to geoid heights (NAVD88) using NGS' Geoid03 model file "g2003u08.bin" with the
+results in meters. GPS data are processed using POSPac software and the results are combined with the lidar data to produce
+3-D positions for each lidar shot.   These data are edited using Fledermaus software where anomalous data are removed from
+the dataset. The edited data are unloaded from SHOALS GCS, converted from ellipsoid to orthometric heights, based on the
+GEOID03 model, and split into geographic tiles covering approximately 5km each.  The process date for this data set is
+20060406, which is listed below as the process date for this process step.
+
+FOR NY,NC DATA:
+Acquisition
+Data were acquired using a SHOALS-1000T.  Sensor orientation was measured using a POS AV 410, while images were acquired at 1Hz
+using a Duncantech DT4000 digital camera.  Prior to survey, PDOP was checked and missions planned to avoid PDOP greater than 3.5.
+During survey, the plane was always within 30km of a GPS ground control point, to provide a good quality position solution.
+Final positions were determined using a post-processed inertially aided Kinematic GPS (KGPS) solution.  GPS ground control
+data were acquired at 1Hz.
+
+Data received by the airborne system were continually monitored for data quality during acquisition operations.
+Display windows showed coverage and information about the system status.  In addition, center waveforms at 5Hz were shown.
+All of this information allowed the airborne operator to assess the quality of data being collected.
+
+Data were processed in the field to verify coverage and data quality. Data were processed using the SHOALS Ground Control
+System (GCS). The GCS includes links to Applanix POSPac software for GPS and inertial processing, and IVS Fledermaus
+software for data visualization, 3D editing  and tie-line analysis.  Data were processed in NAD83 horizontal and vertical
+datum.  Data were later converted to the NAVD88 vertical datum using the GEOID03 model. Fugro in-house utilities were used
+to extract XYZ data from  the native LIDAR files and split the data in to pre-defined  boxes, each covering approximately
+5km of shoreline.   ASCII files include Longitude Latitude Elevation Date Time Intensity (Topo) or Depth Confidence (Hydro).
+The process date for this data set is 20060422.
+</procdesc>
+<procdate>20060406</procdate>
+</procstep>
+<procstep>
+<procdesc>
+The NOAA Coastal Services Center (CSC) received files in ascii format. The files contained lidar intensity and elevation
+measurements. CSC performed the following processing on the data to make it available within the Lidar Data Retrieval
+Tool (LDART):
+1. Each hydro/topo last return ascii file was converted to las files.  Default values for which there is no corresponding
+input were assigned as follows for each las elevation data record: intensity = 0, retn = 1, nret = 1, class = 0
+2. The las files were sorted by latitude and the las header fields were updated.
+3. The data were converted to ellipsoid.
+</procdesc>
+<procdate>20060801</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>
+Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS),
+Coastal Services Center (CSC)
+</cntorg>
+</cntorgp>
+<cntpos>Elevation Project Scientist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>2234 South Hobson Avenue</address>
+<city>Charleston</city>
+<state>South Carolina</state>
+<postal>29405</postal>
+<country>United States</country>
+</cntaddr>
+<cntvoice>(843) 740-1200</cntvoice>
+<cntemail>csc.info@noaa.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>The vertical values in this data set have been converted to reference NAVD88, using the GEOID12A grids provided by the National Geodetic Survey.</procdesc>
+<procdate>20130710</procdate>
+</procstep>
+<procstep>
+<procdesc>The data values in this data set have been rasterized and stored in a 32-bit Floating point GeoTIFF format.  An ESRI style TIFF world file (.tfw) has been included with the coordinate location information, though it lacks the projection information. Cells with no data are contain an IEEE NaN value.</procdesc>
+<procdate>20130710</procdate>
+</procstep>
+<procstep>
+<procdesc>The cell values in this data set represent the average elevation measurement found within each cell, or if there were no values in the cell, a value may have been interpolated from surrounding cells with data values.  The perimeter cells of a 3x3 box surrounding the empty cell is queried for known values - if less than three values are found, then the perimeter cells of a 5x5 box is searched for known values.  This process is repeated for a 7x7 box if less than 3 values are found.  If less than three accumulated known values were found, then the cell is assigned a no data value (usually -999999 for formats that have a tag for the nodata value, otherwise an IEEE NaN value). If at least 3 values were found in that search, the value in the empty cell is interpolated from the known values using an Inverse Distance Weighting (IDW) method.</procdesc>
+<procdate>20130710</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>
+Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA),
+National Ocean Service (NOS), Coastal Services Center (CSC)
+</cntorg>
+</cntorgp>
+<cntpos>Elevation Project Scientist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>2234 South Hobson Avenue</address>
+<city>Charleston</city>
+<state>South Carolina</state>
+<postal>29405</postal>
+<country>United States</country>
+</cntaddr>
+<cntvoice>(843) 740-1200</cntvoice>
+<cntemail>csc.info@noaa.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Raster</direct>
+<rastinfo>
+<rasttype>Grid cell</rasttype>
+<rowcount>3162</rowcount>
+<colcount>3164</colcount>
+</rastinfo>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>2.0</latres>
+<longres>2.0</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altdatum>NAVD88</altdatum>
+<altres>0.0328</altres>
+<altunits>feet</altunits>
+<altenc>
+Explicit elevation coordinate included with horizontal coordinates
+</altenc>
+</altsys>
+</vertdef>
+</spref>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>
+Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA),
+National Ocean Service (NOS), Coastal Services Center (CSC)
+</cntorg>
+</cntorgp>
+<cntpos>Elevation Project Scientist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>2234 South Hobson Avenue</address>
+<city>Charleston</city>
+<state>SC</state>
+<postal>29405-2413</postal>
+</cntaddr>
+<cntvoice>843-740-1200</cntvoice>
+<cntemail>csc.info@noaa.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Downloadable Data</resdesc>
+<distliab>
+Any conclusions drawn from the analysis of this information are not the responsibility of JALBTCX, NOAA, the Coastal Services
+Center or it's partners.
+</distliab>
+<custom>
+This data can be obtained on-line at the following URL:  http://www.csc.noaa.gov/ldart
+The data set is dynamically generated based on user-specified parameters.
+</custom>
+</distinfo>
+<metainfo>
+<metd>20060802</metd>
+<metrd>20080320</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>
+Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS),
+Coastal Services Center(CSC)
+</cntorg>
+</cntorgp>
+<cntpos>Elevation Project Scientist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>2234 South Hobson Avenue</address>
+<city>Charleston</city>
+<state>SC</state>
+<postal>29405-2413</postal>
+</cntaddr>
+<cntvoice>843-740-1200</cntvoice>
+<cntemail>csc.info@noaa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+</metainfo>
+</metadata>

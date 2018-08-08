@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>
+Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS),
+Coastal Services Center (CSC)
+</origin>
+<origin>JALBTCX (Joint Airborne Lidar Bathymetry Technical Center of eXpertise)</origin>
+<pubdate>20131030</pubdate>
+<title>2010 US Army Corps of Engineers (USACE) Joint Airborne Lidar Bathymetry Technical Center of eXpertise (JALBTCX) Lidar: New Jersey (Topo)</title>
+<geoform>LAS data</geoform>
+<pubinfo>
+<pubplace>Charleston, SC</pubplace>
+<publish>NOAA's Ocean Service, Coastal Services Center (CSC)</publish>
+</pubinfo>
+<othercit>This data set has been extracted from one much larger. See the URL for the location of this larger data set.</othercit>
+<onlink>http://www.csc.noaa.gov/dataviewer/index.html?action=advsearch&amp;qType=in&amp;qFld=ID&amp;qVal=1133</onlink>
+<onlink>http://www.csc.noaa.gov/lidar</onlink>
+<onlink>http://www.csc.noaa.gov</onlink>
+<onlink>http://www.csc.noaa.gov/htdata/lidar1_z/geoid12a/data/1133</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+These files contain topographic lidar data classified as ground (2) and unclassified (1) in accordance with the American Society for
+Photogrammetry and Remote Sensing (ASPRS) classification standards. These data were collected by the Compact Hydrographic Airborne Rapid
+Total Survey (CHARTS) system along the coast of New Jersey. CHARTS integrates topographic and bathymetric lidar sensors, a digital camera
+and a hyperspectral scanner on a single remote sensing platform for use in coastal mapping and charting activities. Data coverage generally
+extends along the coastline from the waterline inland 500 meters (topography) and offshore 1,000 meters or to laser extinction (bathymetry).
+The topographic lidar sensor has a pulse repetition rate of 9 kHz at 1064 nm (near-infrared wavelength). The bathymetric lidar sensor has a
+pulse repetition rate of 1 kHz at 532 nm (green wavelength). Native lidar data is not generally in a format accessible to most Geographical
+Information Systems (GIS). Specialized in-house and commercial software packages are used to process the native lidar data into 3-dimensional
+positions that can be imported into GIS software for visualization and further analysis. Horizontal positions, provided in decimal degrees of
+latitude and longitude, are referenced to the North American Datum of 1983 (NAD83). Vertical positions are referenced to the NAD83 ellipsoid
+and provided in meters. The National Geodetic Survey's (NGS) GEOID03 model is used to transform the vertical positions from ellipsoid to
+orthometric heights referenced to the North American Vertical Datum of 1988 (NAVD88). The 3-D position data are sub-divided into a series of
+LAS files, each covering approximately 5 kilometers of shoreline. The file index is provided by the shape file, "nj_boxes.shp", and the
+numbers used to identify files are in the "Box" field of the shape file. The LAS file naming convention is based on the year, project, area
+name, "Box," and the product type. An example file name is "2010_NCMP_NJ_01_GeoClassified.las", where 2010 is the year of data collection,
+NCMP is the project under which data were collected, NJ is the area of data collection, 01 is the "Box" number and "GeoClassified" is the
+product type. The format of the file is LAS version 1.1.
+
+This data set is a raster file of z values with 3460 columns and 3460 rows. The data set was generated from a larger data set and includes all valid points within the requested geographic bounds.
+</abstract>
+<purpose>
+These data were collected as a part of the NCMP to depict the elevations above the water in the New Jersey coastal zone.
+</purpose>
+<supplinf>
+A footprint of this data set may be viewed in Google Earth at:
+ftp://ftp.csc.noaa.gov/pub/crs/beachmap/qa_docs/nj/2010_USACE_JALBTCX_New_Jersey_Lidar.kmz
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>20100828</begdate>
+<enddate>20100911</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-74.2278753816337</westbc>
+<eastbc>-74.1624968421783</eastbc>
+<northbc>39.6447684667392</northbc>
+<southbc>39.5793926000544</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>elevation</themekey>
+</theme>
+<theme>
+<themekt>None</themekt>
+<themekey>Bathymetry/Topography</themekey>
+<themekey>U.S. Army Corps of Engineers, Mobile District</themekey>
+<themekey>JALBTCX</themekey>
+<themekey>NCMP</themekey>
+<themekey>USACE</themekey>
+<themekey>JALBTCX</themekey>
+<themekey>CHARTS</themekey>
+<themekey>SHOALS</themekey>
+<themekey>LAS</themekey>
+<themekey>Lidar</themekey>
+<themekey>Coastal Elevation</themekey>
+<themekey>Terrain Elevation</themekey>
+<themekey>Topobathy</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>United States</placekey>
+<placekey>New Jersey</placekey>
+<placekey>Cape May County</placekey>
+<placekey>Atlantic County</placekey>
+<placekey>Ocean County</placekey>
+<placekey>Monmouth County</placekey>
+</place>
+<temporal>
+<tempkt>None</tempkt>
+<tempkey>2010</tempkey>
+<tempkey>August</tempkey>
+<tempkey>September</tempkey>
+</temporal>
+</keywords>
+<accconst>
+This data set was compiled dynamically, and will exist on ftp.csc.noaa.gov/tmp/dav until
+10 days after 10/30/2013, as Job209378_2010_USACE_NJ.zip. After 10 days this file will be deleted from the system.
+</accconst>
+<useconst>
+Users should be aware that temporal changes may have occurred since this data set was collected and some parts of
+this data may no longer represent actual surface conditions. Users should not use this data for critical applications without a
+full awareness of its limitations. These data depict the heights at the time of the survey and are only accurate for that time.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>JALBTCX</cntorg>
+</cntorgp>
+<cntpos>Data Production Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>7225 Stennis Airport Rd., STE 100</address>
+<city>Kiln</city>
+<state>MS</state>
+<postal>39556</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>228-252-1121</cntvoice>
+<cntfax>228-252-1133</cntfax>
+<cntemail>shoals-info@sam.usace.army.mil</cntemail>
+<hours>8am - 5pm M-F</hours>
+</cntinfo>
+</ptcontac>
+<datacred>
+Acknowledgement of US Army Corps of Engineers (USACE) Joint Airborne Lidar Bathymetry Technical Center of Expertise (JALBTCX) would
+be appreciated in products derived from these data.
+</datacred>
+<native>Microsoft Windows Vista Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.3.0.1770</native>
+</idinfo>
+<dataqual>
+<logic>
+The data provided in this file were tested against ground truth data.  At these locations the lidar data matched within 0.20 meters, and
+different flight line data agreed within 0.20 meters.
+</logic>
+<complete>The project area was verified for complete coverage.</complete>
+<posacc>
+<horizpa>
+<horizpar>The data positions were obtained using post processed KGPS methods. The horizontal accuracy of the data is better than +/- 0.75m.</horizpar>
+<qhorizpa>
+<horizpav>0.75</horizpav>
+<horizpae>1 Sigma</horizpae>
+</qhorizpa>
+</horizpa>
+<vertacc>
+<vertaccr>The data positions were obtained using post processed KGPS methods. The vertical accuracy of the data is better than +/- 0.20m.</vertaccr>
+<qvertpa>
+<vertaccv>0.20</vertaccv>
+<vertacce>1 Sigma</vertacce>
+</qvertpa>
+</vertacc>
+</posacc>
+<lineage>
+<procstep>
+<procdesc>
+These data were collected using the CHARTS system. It is owned by the Naval Oceanographic Office and operated through contract. The system collects
+topographic lidar data at 9kHz, bathymetric lidar data at 1kHz and RGB imagery at 1Hz. A CASI-1500 hyperspectral line scanner is integrated with
+the system as well. Aircraft position, velocity and acceleration information are collected through a combination of Novatel and POS A/V 410
+equipment. All raw data streams are transferred to the office for downloading and processing in SHOALS GCS software. Aircraft position data are
+processed using POSPac software and the results are combined with the lidar data to produce 3-D positions for each lidar shot. Upon inspection and
+QA/QC in the software packages Fledermaus and PFM_ABE, anomalous data are flagged as invalid. PFM_ABE's chartsLAS module then converts all valid
+data from ellipsoid to orthometric heights based on the NGS' GEOID03 model and exports topographic data as a series of LAS files with a single file
+per flightline per 5km box.
+</procdesc>
+<procdate>2010</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>JALBTCX</cntorg>
+</cntorgp>
+<cntpos>Data Production Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>7225 Stennis Airport Rd., STE 100</address>
+<city>Kiln</city>
+<state>MS</state>
+<postal>39566</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>228-252-1121</cntvoice>
+<cntfax>228-252-1133</cntfax>
+<cntemail>JALBTCX@usace.army.mil</cntemail>
+<hours>8am - 5pm M-F</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>
+The flightline LAS files are imported into the TerraScan V11 module within MicroStation V8.0. The resulting LAS files are thinned to eliminate
+duplicate points. A customized classification macro is used to distinguish ground points (2) and unclassified points (1). The classification
+results are QC'd and any misclassified points are manually edited. In areas of dense vegetation the bare ground points might be incorrectly
+classified due to the inability of the laser to penetrate the canopy and reach the bare ground. In these areas, JALBTCX defaults to the algorithm's
+"ground" surface instead of manually reclassifying those points. The points are exported to an ASCII file containing the following fields:
+longitude, latitude, elevation (orthometric), intensity, classification, mirror angle, time (GPS time), number of echos, and echo number.
+The ASCII file is converted to LAS with the txt2las code from LAStools (http://www.cs.unc.edu/~isenburg/lastools/).
+</procdesc>
+<procdate>2010</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>JALBTCX</cntorg>
+</cntorgp>
+<cntpos>Data Production Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>7225 Stennis Airport Rd., STE 100</address>
+<city>Kiln</city>
+<state>MS</state>
+<postal>39566</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>228-252-1121</cntvoice>
+<cntfax>228-252-1133</cntfax>
+<cntemail>JALBTCX@usace.army.mil</cntemail>
+<hours>8am - 5pm M-F</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>
+The NOAA Coastal Services Center (CSC) received data in LAS v1.1 format. The files contained LiDAR elevation and intensity measurements.
+The data were received in geographic coordinates (NAD83) and vertically referenced to NAVD88 using the Geoid03 model. The vertical units of
+data were meters. The data were classified according to ASPRS LAS classification scheme (1 = unclassified, 2 = ground). CSC performed
+the following processing for data storage and Digital Coast provisioning purposes:
+
+1. The LAS files were converted from orthometric heights to ellipsoidal heights (GRS80) using Geoid 03.
+2. The LAS data were sorted by latitude and the headers were updated.
+</procdesc>
+<procdate>201202</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>NOAA Coastal Services Center</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>2234 South Hobson Ave.</address>
+<city>Charleston</city>
+<state>SC</state>
+<postal>29405</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>843-740-1200</cntvoice>
+<cntemail>csc.info@noaa.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>The vertical values in this data set have been converted to reference NAVD88, using the GEOID12A grids provided by the National Geodetic Survey.</procdesc>
+<procdate>20131030</procdate>
+</procstep>
+<procstep>
+<procdesc>The data values in this data set have been rasterized and stored in a 32-bit Floating point GeoTIFF format.  An ESRI style TIFF world file (.tfw) has been included with the coordinate location information, though it lacks the projection information. Cells with no data are contain an IEEE NaN value.</procdesc>
+<procdate>20131030</procdate>
+</procstep>
+<procstep>
+<procdesc>The cell values in this data set represent the average elevation measurement found within each cell, or if there were no values in the cell, a value may have been interpolated from surrounding cells with data values.  The perimeter cells of a 3x3 box surrounding the empty cell is queried for known values - if less than three values are found, then the perimeter cells of a 5x5 box is searched for known values.  This process is repeated for a 7x7 box if less than 3 values are found.  If less than three accumulated known values were found, then the cell is assigned a no data value (usually -999999 for formats that have a tag for the nodata value, otherwise an IEEE NaN value). If at least 3 values were found in that search, the value in the empty cell is interpolated from the known values using an Inverse Distance Weighting (IDW) method.</procdesc>
+<procdate>20131030</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>
+Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA),
+National Ocean Service (NOS), Coastal Services Center (CSC)
+</cntorg>
+</cntorgp>
+<cntpos>Coastal Elevation Mapping (CEM) Project Scientist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>2234 South Hobson Avenue</address>
+<city>Charleston</city>
+<state>South Carolina</state>
+<postal>29405</postal>
+<country>United States</country>
+</cntaddr>
+<cntvoice>(843) 740-1200</cntvoice>
+<cntemail>csc.info@noaa.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Raster</direct>
+<rastinfo>
+<rasttype>Grid cell</rasttype>
+<rowcount>3460</rowcount>
+<colcount>3460</colcount>
+</rastinfo>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>6.0</latres>
+<longres>6.0</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altdatum>NAVD88</altdatum>
+<altres>0.0328</altres>
+<altunits>feet</altunits>
+<altenc>
+Explicit elevation coordinate included with horizontal coordinates
+</altenc>
+</altsys>
+</vertdef>
+</spref>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>NOAA Coastal Services Center</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>2234 South Hobson Ave.</address>
+<city>Charleston</city>
+<state>SC</state>
+<postal>29405-2413</postal>
+</cntaddr>
+<cntvoice>843-740-1200</cntvoice>
+<cntemail>csc.info@noaa.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Downloadable Data</resdesc>
+<distliab>
+Any conclusions drawn from the analysis of this information are not the responsibility of USACE, JALBTCX, the Coastal Services Center,
+or its partners.
+</distliab>
+<custom>
+This data can be obtained on-line at the following URL: http://www.csc.noaa.gov/lidar
+The data set is dynamically generated based on user-specified parameters.
+</custom>
+</distinfo>
+<metainfo>
+<metd>201204</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>NOAA Coastal Services Center</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>2234 South Hobson Ave.</address>
+<city>Charleston</city>
+<state>SC</state>
+<postal>29405-2413</postal>
+</cntaddr>
+<cntvoice>843-740-1200</cntvoice>
+<cntemail>csc.info@noaa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+</metainfo>
+</metadata>

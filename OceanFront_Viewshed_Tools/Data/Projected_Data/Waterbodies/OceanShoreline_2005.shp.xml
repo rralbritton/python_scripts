@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>New Jersey Department of Environmental Protection (NJDEP), Division of Land Use Planning, Bureau of Marine Water Monitoring (BMW)</origin>
+				<pubdate>20090116</pubdate>
+				<title>NJDEP Coastline of New Jersey, Version 20090116</title>
+				<edition>20090116</edition>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Trenton, NJ</pubplace>
+					<publish>NJ Department of Environmental Protection (NJDEP)</publish>
+				</pubinfo>
+				<onlink>http://www.state.nj.us/dep/gis/digidownload/zips/statewide/coast.zip</onlink>
+				<ftname Sync="TRUE">coast</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>NOTE:  Coastline of New Jersey was extracted from NJDEP's Rivers, Bays and Oceans data layer (shortname = njarea). The majority of descriptive information contained within this metadata record relates to the original source layer  Rivers, Bays and Oceans.
+
+The NJAREA source file contains generic water body information which was transferred from several sources to polygons extracted from the 2002 Land Use/Land Cover data sets.
+
+Photo Interpretation of the 2002 color infrared (CIR) imagery and digitizing of the 2002 Land Use/Land Cover data was done by Aerial Information Systems, Inc., Redlands, CA, under direction of the New Jersey Department of Environmental Protection (NJDEP), Bureau of Geographic Information System (BGIS).
+
+The data was created by extracting water polygons which represented Rivers, Bays and Oceans from the 2002 land use/land cover (LU/LC) layer from NJ DEP's geographical information systems (GIS) database.
+
+The classification system used was a modified Anderson et al., 2002 classification system. Minimum mapping unit (MMU) is 1 acre; however, the data does contains ponds well below the MMU.</abstract>
+			<purpose>This data layer provides basic coastline data to be used in various GIS applications.
+</purpose>
+			<supplinf>The following information is from the Rivers, Bays and Oceans metadata.  Any additional documents can be obtained from that metadata record and/or zip file download:
+
+A detailed discussion of specific procedures used to create this updated data set is included in UPDATE2002.DOC.
+
+Users of this data are strongly urged to become familiar with the USGS National Hydrography Dataset (NHD) review documents, as well as others included below, before using the data set.
+
+http://nhd.usgs.gov/index.html
+
+A list of land use codes in given in CODELIST2002.DOC, with a full description of each code given in ANDERSON2002.DOC.  The Cowardin codes used to describe the non-tidal wetlands are discussed in FWW.DOC.
+
+All documents are available in HTML format as follows:
+
+http://www.state.nj.us/dep/gis/digidownload/metadata/lulc02/update.html
+
+http://www.state.nj.us/dep/gis/digidownload/metadata/lulc02/codelist2002.html
+
+http://www.state.nj.us/dep/gis/digidownload/metadata/lulc02/anderson2002.html</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2009</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-75.608931</westbc>
+				<eastbc>-73.899185</eastbc>
+				<northbc>41.357062</northbc>
+				<southbc>38.924386</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">187683.820524</leftbc><rightbc Sync="TRUE">657059.680104</rightbc><bottombc Sync="TRUE">34945.754200</bottombc><topbc Sync="TRUE">919282.903150</topbc></lboundng><minalti Sync="TRUE">-0.000500</minalti><maxalti Sync="TRUE">0.000000</maxalti></spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>oceans</themekey>
+			</theme>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>coastal</themekey>
+				<themekey>coast</themekey>
+				<themekey>coastline</themekey>
+				<themekey>oceans</themekey>
+				<themekey>shoreline</themekey>
+			</theme>
+			<place>
+				<placekt>none</placekt>
+				<placekey>New Jersey</placekey>
+				<placekey>NJ</placekey>
+			</place>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>New Jersey Department of Environmental Protection (NJDEP)
+
+Data Distribution Agreement
+
+I. Description of Data to be Provided.
+
+The data provided herein are distributed subject to the following conditions and restrictions:
+
+SUBJECT DATA LAYERS
+
+For all data contained herein, NJDEP makes no representations of any kind, including, but not limited to, the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the digital data layers furnished hereunder.  NJDEP assumes no responsibility to maintain them in any manner or form.
+
+II.Terms of Agreement
+
+1. Digital data received from the NJDEP are to be used solely for internal purposes in the conduct of daily affairs.
+
+2. The data are provided, as is, without warranty of any kind and the user is responsible for understanding the accuracy limitations of all digital data layers provided herein, as documented in the accompanying cross-reference files (see SUPPLEMENTAL INFORMATION).  Any reproduction or manipulation of the above data must ensure that the coordinate reference system remains intact.
+
+3. Digital data received from the NJDEP may not be reproduced or redistributed for use by anyone without first obtaining written permission from the NJDEP.  This clause is not intended to restrict distribution of printed mapped information produced from the digital data.
+
+4. Any maps, publications, reports, or other documents produced as a result of this project that utilize NJDEP digital data will credit the NJDEP's Geographic Information System (GIS) as the source of the data with the following credit/disclaimer:
+
+"This (map/publication/report) was developed using New Jersey Department of Environmental Protection Geographic Information System digital data, but this secondary product has not been verified by NJDEP and is not state-authorized."
+
+5.    Users shall require any independent contractor, hired to undertake work that will utilize digital data obtained from the NJDEP, to agree not to use, reproduce, or redistribute NJDEP GIS data for any purpose other than the specified contractual work.  All copies of NJDEP GIS data utilized by an independent contractor will be required to be returned to the original user at the close of such contractual work.
+
+Users hereby agree to abide by the use and reproduction conditions specified above and agree to hold any independent contractor to the same terms.  By using data provided herein, the user acknowledges that terms and conditions have been read and that the user is bound by these criteria.</useconst>
+		<browse>
+			<browsen>http://www.state.nj.us/dep/gis/digidownload/images/statewide/coast.gif</browsen>
+			<browsed>image</browsed>
+			<browset>GIF</browset>
+		</browse>
+		<datacred>NJ Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information System (BGIS)</datacred>
+		<native>ESRI shapefile;  ArcGIS 9.1</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>NJDEP checked for delineation accuracy, connectivity, invalid attribute codes and corrected as identified.</attraccr>
+		</attracc>
+		<logic>From the "Rivers, Bays and Oceans" layer:
+
+Polygon topology exists.  Nodes, lines, and areas conform to topological rules.  Lines intersect only at nodes, and all nodes anchor the ends of lines.  Lines do not overshoot or undershoot other lines where they are supposed to meet.  There are no duplicate lines or polygons.  Lines bound areas and lines identify the areas to the left and right of the lines.  Gaps and overlaps among areas do not exist.  All areas close.</logic>
+		<complete>Selection Criteria:
+
+The source NJAREA polygon layer was processed into a polyline file where the coastline data was extracted, including islands in the Delaware River.  Attributes for Streams and Canals; Oceans; Tidal rivers, inland bays and other tidal waters were selected out of NJAREA.  Data not relevant to coastline was removed.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>NMAS at 1:12000</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>NA</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Keystone Aerial Surveys</origin>
+						<pubdate>20020411</pubdate>
+						<pubtime>Unknown</pubtime>
+						<title>Aerial Imagery Acquisition of the State of New Jersey</title>
+						<geoform>remote-sensing image</geoform>
+						<pubinfo>
+							<pubplace>Philadelphia, PA</pubplace>
+							<publish>Keystone Aerial Surveys</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>2400</srcscale>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>20020218</begdate>
+							<enddate>20020411</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Aerial Photography</srccitea>
+				<srccontr>Digital color infrared (CIR) orthophotography of New Jersey in State Plane NAD83 Coordinates, U.S. Survey Feet. The digital orthophotography was produced at a scale of 1:2400 (1"=200') with a 1 foot pixel resolution.  Land use/land cover for 2002 was digitized directly from 2002 digital image files.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>United States Geological Survey (USGS); NJDEP</origin>
+						<pubdate>1995/97</pubdate>
+						<title>1995/97 CIR Digital Ortho Quarterquads</title>
+						<geoform>remote-sensing image</geoform>
+						<pubinfo>
+							<pubplace>Reston, Va</pubplace>
+							<publish>USGS</publish>
+						</pubinfo>
+						<othercit>Digital images were created from 1:40000 scale NAPP CIR images by USGS, referenced in UTM, NAD83.  These images were then projected to New Jersey State Plane Feet Coordinates (NJSPF), NAD83, and compressed to JPEG images files.  These NJSPF compressed files were used in the development of the this data set. The original images in UTM are available from the USGS website.  The NJSPF versions are available from the NJDEP site.  Both sites have online and CD distribution of these images.</othercit>
+						<onlink>http://edc.usgs.gov</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>12000</srcscale>
+				<typesrc>online; CDROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1995</begdate>
+							<enddate>1997</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>USGS; NJDEP</srccitea>
+				<srccontr>Land use/land cover for 1995/97 was digitized directly from 1995/97 digital image files.  Photographic transparencies of the CIR images used to create the digital files were also viewed stereoscopically to aid in land use/land cover determinations.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>New Jersey Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information Systems (BGIS)</origin>
+						<pubdate>20080501</pubdate>
+						<title>NJDEP 2002 Waters of New Jersey (Rivers, Bays and Oceans), Version 20080501</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Trenton, NJ</pubplace>
+							<publish>NJ Department of Environmental Protection (NJDEP)</publish>
+						</pubinfo>
+						<onlink>http://www.state.nj.us/dep/gis/digidownload/zips/statewide/njarea.zip</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>12000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2008</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>njarea</srccitea>
+				<srccontr>Coastline data was extracted from the Rivers, Bays, and Oceans data layer (njarea).</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Photo interpretation of 2002 CIR digital imagery, interactive editing and initial QA/QC was done by Aerial Information Systems, Redlands, CA.  Final QA/QC and final data formatting was done by NJDEP/BGIS.  Data sets were processed and delivered by Watershed Management Area (WMA) and much of this coding was maintained in the Hydrography layers version
+
+NJDEP/BGIS is committed to the development of Hydrography data, waterbody feature class which will meet the USGS National Hydrography Dataset standards.
+
+Streams, Bays, Ocean and Bridge features were extracted from the Land Use/Land Cover 2002 data layer.  Features were dissolved on COWARDIN codes and organized to conform to USGS NHDinGeo structure.  Through a series of spatial and table joins, attributes were transferred from existing waterbody source data layers.  These included USGS NHDinGEO NHDArea attributes and Name attributes from the Surface Water Quality Standards layer as well as earlier NJDEP Lake layers.
+
+Discrepancies exist between these layers as well as published USGS Topographic maps.  These will be evaluated and corrected in later versions.  NJDEP/BGIS is working with USGS to get the COMIDS and REACHCODES transferred.
+
+This product is an interim product subject to attribute correction.</procdesc>
+				<procdate>2005</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Only Coastline data extracted from Rivers, Bays, and Oceans (njarea) layer.
+
+The NJAREA polygon layer was processed into a polyline file where the coastline data was extracted, including islands in the Delaware River.  Attributes for Streams and Canals; Oceans; Tidal rivers, inland bays and other tidal waters were selected out of NJAREA.  Data not relevant to coastline was removed.
+
+The coastline boundary was then modified to match the updated 2008 NJ Boundary data along the NY/NJ border.</procdesc>
+				<procdate>20090116</procdate>
+			</procstep>
+		</lineage>
+		<cloud>0</cloud>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<esriterm Name="coast"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polyline</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">1773</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">TRUE</linrefer></esriterm><sdtsterm Name="coast"><sdtstype Sync="TRUE">String</sdtstype><ptvctcnt Sync="TRUE">1773</ptvctcnt></sdtsterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000512</absres>
+						<ordres>0.000512</ordres>
+					</coordrep>
+					<plandu>survey feet</plandu>
+				</planci>
+				<gridsys><gridsysn Sync="TRUE">State Plane Coordinate System 1983</gridsysn><spcs><spcszone Sync="TRUE">2900</spcszone><transmer><sfctrmer Sync="TRUE">0.999900</sfctrmer><longcm Sync="TRUE">-74.500000</longcm><latprjo Sync="TRUE">38.833333</latprjo><feast Sync="TRUE">492125.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></transmer></spcs></gridsys></planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_New_Jersey_FIPS_2900_Feet</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum>North American Vertical Datum of 1988</altdatum>
+				<altres>1.000000</altres>
+				<altunits>feet</altunits>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="coast">
+			<enttyp>
+				<enttypl>coast</enttypl>
+				<enttypd>NJDEP Coastline of New Jersey</enttypd>
+				<enttypds>NJDEP</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">1773</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ID</attrlabl>
+				<attrdef>Coastline Attribute ID.</attrdef>
+				<attrdefs>NJDEP</attrdefs>
+				<attrdomv>
+					<udom>unique.</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NJDEP/OIRM/BGIS</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>401 East State Street, First Floor, PO Box 428</address>
+					<city>Trenton</city>
+					<state>New Jersey</state>
+					<postal>08625-0428</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>609-777-0672</cntvoice>
+				<cntfax>609-292-7900</cntfax>
+				<cntemail>gisnet@dep.state.nj.us</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>See "Use Constraints"</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>AVSHP</formname>
+					<formvern>9x</formvern>
+					<filedec>WinZip</filedec>
+					<transize>59.857</transize>
+					<dssize Sync="TRUE">59.857</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.state.nj.us/dep/gis/stateshp.html</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+					<offoptn>
+						<offmedia>none</offmedia>
+						<recfmt>none</recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>none</fees>
+			<ordering>none</ordering>
+		</stdorder>
+		<custom>none</custom>
+	</distinfo>
+	<metainfo>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mike Kusmiesz</cntper>
+					<cntorg>Bureau of Marine Water Monitoring</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Marine Water Monitoring</address>
+					<address>929 Stoney Hill Rd.</address>
+					<city>Leeds Point</city>
+					<state>New Jersey</state>
+					<postal>08220</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>609) 748-2000</cntvoice>
+				<cntemail>Mike.Kusmiesz@dep.state.nj.us</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta><metd Sync="TRUE">20090128</metd><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20131006</CreaDate><CreaTime>12583100</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20090128</SyncDate><SyncTime>15155500</SyncTime><ModDate>20090128</ModDate><ModTime>15155500</ModTime><ArcGISFormat>1.0</ArcGISFormat><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\RACHEL-PC\C$\ArcGIS\SurfCityData\Data\Projected_Data\Waterbodies\OceanShoreline_2005</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="C:\ArcGIS\SurfCityData\Data\Projected_Data\OceanShoreline_2005" dest="\\RACHEL-PC\C$\ArcGIS\SurfCityData\Data\Projected_Data\Waterbodies\OceanShoreline_2005" date="20131116" time="09421200"></copy></copyHistory></DataProperties></Esri><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc></onLineSrc></distorTran></distributor></distInfo></metadata>

@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</origin>
+<pubdate>201303</pubdate>
+<title>New Jersey 2012 - 2013 High Resolution Orthophotography, NAD83 NJ State Plane Feet, MrSID Tiles; Republished May 2013</title>
+<edition>201305</edition>
+<geoform>remote-sensing image</geoform>
+<pubinfo>
+<pubplace>Trenton, NJ</pubplace>
+<publish>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</publish>
+</pubinfo>
+<onlink>https://njgin.state.nj.us/NJ_NJGINExplorer/jviewer.jsp?pg=2012_OrthoImagery</onlink>
+<onlink>http://njgin.nj.gov/OIT_IW/index.jsp</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>
+Digital orthophotography of New Jersey in NJ State Plane Coordinate System NAD83 Coordinates, U.S. Survey Feet. The aerial photography of New Jersey was captured in March and April 2012. 
+
+Multi-spectral digital orthophotography was produced at a scale of 1:2400 (1"=200') with a 1 foot pixel resolution for the entire state, totaling approximately 8,162 square miles.
+
+Digital orthophotography combines the image characteristics of a photograph with the geometric qualities of a map. Each digitized perspective aerial photograph is rectified for camera lens distortion, vertical displacement caused by terrain relief and variations in aircraft altitude and orientation.
+</abstract>
+<purpose>This data depicts geographic features on the surface of the earth.  It was created to provide easily accessible geospatial data which is readily available to enhance the capability of Federal, State, and local emergency responders, as well as plan for homeland security efforts.  This data also supports The National Map.</purpose>
+<supplinf>
+The originally-delivered and published MrSID tiles were processed with the wrong compression ratio (1:15), and were described incorrectly as 1:10. They were reprocessed, re-delivered, and republished in early May 2013 with 1:10 compression.
+
+This data set consists of 1-foot GSD pixel resolution natural color orthoimages covering the state of New Jersey, An orthoimage is remotely sensed image data in which displacement of features in the image caused by terrain relief and sensor orientation have been mathematically removed.   
+
+For 1.0 foot GSD Ortho image, horizontal positional accuracy was designed not to exceed 4 feet (1.22-meters) NSSDA 95% confidence (2.89 feet [0.88-meter] Root Mean Squared (RMSE) Error XY 2.03 feet [0.62-meters] RMSE X or Y).  Each orthoimage provides imagery over a 5000-foot by 5000-foot block on the ground. There is no image overlap between adjacent files. The projected coordinate system is New Jersey State Plane with a NAD83 datum.
+								
+Aerial photography of New Jersey was captured on the following flight dates: March 14, 2012; March 15, 2012; March 18, 2012; March 19, 2012; March 23, 2012; March 27, 2012; March 30, 2012; April 3, 2012; April 4, 2012; April 5, 2012; April 6, 2012; April 13, 2012; April 14, 2012; and April 16, 2012. The Nominal Acquisition Altitude of 9600' (AGL) was used to capture the imagery.  Supplemental flight lines were also acquired over defined urban areas of Atlantic City, Jersey City, Newark, and Trenton in order to provide additional imagery to be used in the process of minimizing building lean during orthophotography production.  
+
+The DMC large format digital camera captures four band (RGB and NIR) imagery at 12 bits per pixel. For software compatibility a linear stretch was applied to expand the bit depth from 12 to 16 in order to facilitate the display of the imagery in ArcGIS. 
+
+This dataset consists of uncompressed, ortho photo tiles adhering to the State of New Jersey's 5,000 x 5,000' ortho photo tile index formatted as 16-bit, 4-band (RGB and NIR), uncompressed, GeoTIFF images with TIF world Files.  Digital Orthorectified images are referenced to New Jersey State Plane Coordinate System (Transverse Mercator), North American Datum NAD83 (NSRS 2007) adjustment.  Units are U.S. Survey Feet.  The tiles were subsequently reprocessed to compressed MrSID format. See process steps for details.
+
+The U.S. Geological Survey also received imagery referenced to UTM Zone 18 North, North American Datum NAD83 (NSRS 2007) adjustment.  Units are Meters.
+
+Maximum and mean differential baseline lengths were not generated for the NJ Statewide project due to the use of Applanix SmartBase software used to process and compute atmospheric errors within a specified GNSS multi-base network.
+
+SmartBase processing offers a number of significant benefits including:
+	The distance to the nearest reference station can be extended well beyond 30 km.
+	
+	The time to fix integer ambiguities is significantly reduced.
+	
+	The overall reliability of fixing integer ambiguities is increased.
+	
+	No special processing is required in the RTK engine, as it is the case for a centralized multi-base approach.
+	
+Due to the complexity of the typical reference station network used in SmartBase processing, determining maximum and mean differential baseline lengths is not feasible for this project.
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<mdattim>
+<sngdate>
+<caldate>20120314</caldate>
+</sngdate>
+<sngdate>
+<caldate>20120315</caldate>
+</sngdate>
+<sngdate>
+<caldate>20120318</caldate>
+</sngdate>
+<sngdate>
+<caldate>20120319</caldate>
+</sngdate>
+<sngdate>
+<caldate>20120323</caldate>
+</sngdate>
+<sngdate>
+<caldate>20120327</caldate>
+</sngdate>
+<sngdate>
+<caldate>20120330</caldate>
+</sngdate>
+<sngdate>
+<caldate>20120403</caldate>
+</sngdate>
+<sngdate>
+<caldate>20120404</caldate>
+</sngdate>
+<sngdate>
+<caldate>20120405</caldate>
+</sngdate>
+<sngdate>
+<caldate>20120406</caldate>
+</sngdate>
+<sngdate>
+<caldate>20120413</caldate>
+</sngdate>
+<sngdate>
+<caldate>20120414</caldate>
+</sngdate>
+<sngdate>
+<caldate>20120416</caldate>
+</sngdate>
+</mdattim>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>5 years</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-75.572848</westbc>
+<eastbc>-73.873522</eastbc>
+<northbc>41.372626</northbc>
+<southbc>38.914716</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>imageryBaseMapsEarthCover</themekey>
+</theme>
+<theme>
+<themekt>none</themekt>
+<themekey>digital imagery</themekey>
+<themekey>digital orthophotography</themekey>
+<themekey>digital ortho imagery</themekey>
+<themekey>orthophoto</themekey>
+<themekey>multi-spectral imagery</themekey>
+<themekey>color infrared</themekey>
+<themekey>rectified image</themekey>
+<themekey>rectification</themekey>
+<themekey>3 band</themekey>
+<themekey>4 band</themekey>
+<themekey>16 bit</themekey>
+<themekey>8 bit</themekey>
+<themekey>MrSID</themekey>
+<themekey>GeoTIFF</themekey>
+<themekey>Digital Elevation Model</themekey>
+<themekey>Digital Terrain Model</themekey>
+<themekey>digital image map</themekey>
+<themekey>aerial photograph</themekey>
+<themekey>aerial photography</themekey>
+<themekey>basemap</themekey>
+<themekey>digital land base</themekey>
+<themekey>remote sensing</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>New Jersey</placekey>
+<placekey>Atlantic County</placekey>
+<placekey>Bergen County</placekey>
+<placekey>Burlington County</placekey>
+<placekey>Camden County</placekey>
+<placekey>Cape May County</placekey>
+<placekey>Cumberland County</placekey>
+<placekey>Essex County</placekey>
+<placekey>Gloucester County</placekey>
+<placekey>Hudson County</placekey>
+<placekey>Hunterdon County</placekey>
+<placekey>Mercer County</placekey>
+<placekey>Middlesex County</placekey>
+<placekey>Monmouth County</placekey>
+<placekey>Morris County</placekey>
+<placekey>Ocean County</placekey>
+<placekey>Passaic County</placekey>
+<placekey>Salem County</placekey>
+<placekey>Somerset County</placekey>
+<placekey>Sussex County</placekey>
+<placekey>Union County</placekey>
+<placekey>Warren County</placekey>
+<placekey>Mid Atlantic</placekey>
+<placekey>East Coast</placekey>
+<placekey>US</placekey>
+<placekey>NJ</placekey>
+</place>
+<place>
+<placekt>U.S. Department of Commerce, 1995, Countries, dependencies, areas of special sovereignty, and their principal administrative divisions, Federal Information Processing Standard (FIPS) 10-4): Washington, D.C., National Institute of Standards and Technology.</placekt>
+<placekey>US</placekey>
+</place>
+<place>
+<placekt>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the outlying areas of the United States, and associated areas (Federal Information Processing Standard (FIPS) 5-2): Washington, D.C., National Institute of Standards and Technology.</placekt>
+<placekey>NJ</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>
+None; acknowledgement of "NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)" as the data source would be appreciated. Reference date for this data set in a citation should be 2012 - 2013. 
+
+Users should be aware that temporal changes may have occurred since this data set was collected and that some parts of this data may no longer represent actual surface conditions.  Users should not use this data for critical applications without a full awareness of it's limitations.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>PO Box 212</address>
+<city>Trenton</city>
+<state>NJ</state>
+<postal>08625-0212</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>609.633.9103</cntvoice>
+<cntfax>609.633.0400</cntfax>
+<cntemail>njgin@oit.state.nj.us</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>
+Photo Science, Inc. was the operating contractor.
+Contract, procurement, and Quality Assurance by U.S. Geological Survey
+Funding obtained by NJ Office of Information Technology, Office of Geographic Information Systems, from the following:
+-NJ State Police, Office of Emergency Management (NJSP, OEM)
+-National Geospatial-Intelligence Agency (NGA) via U.S. Geological Survey
+-NJ Department of Environmental Protection (NJDEP)
+-NJ Department of Transportation (NJDOT)
+-NJ Transit
+-NJ Office of Homeland Security and Preparedness (OHSP)
+-NJ Department of Military and Veterans Affairs (DMAVA)
+-US Army Corps of Engineers
+</datacred>
+<secinfo>
+<secsys>NJGIN</secsys>
+<secclass>public</secclass>
+<sechandl>No special handling required.</sechandl>
+</secinfo>
+<native>Both Windows XP and Windows 7 OS were used.  Microsoft Office products such as Word, Excel, Internet Explorer and Access.  MicroStation version 7 and version 8 were both used.  Intergraph suite of products for Z/I Digital Mapping cameras.  Esri ArcGIS 10.  UltraEdit.  Global Mapper.  GeoExpress 8.5</native>
+<crossref>
+<citeinfo>
+<origin>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</origin>
+<pubdate>2009</pubdate>
+<title>New Jersey 2007 - 2008 High Resolution Orthophotography 5000 foot Tile Index (rev. 2009)</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Trenton, NJ</pubplace>
+<publish>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</publish>
+</pubinfo>
+<othercit>The same tiling scheme was used for the 2012 project as for the 2007 - 2008 project. Image shows contents of tiling scheme; only change from 2002 is the addition of one 5k tile.</othercit>
+<onlink>http://njgin.state.nj.us/oit/gis/download/NJ07_ortho_ix_09.zip</onlink>
+<onlink>http://njgin.nj.gov/oit/gis/OIT_IW/images/Tiling.jpg</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</origin>
+<pubdate>201304</pubdate>
+<title>New Jersey 2012 High Resolution Orthophotography, Seam Line Photo Date Polygons</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Trenton, NJ</pubplace>
+<publish>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</publish>
+</pubinfo>
+<onlink>https://njgin.state.nj.us/oit/gis/download/NJ12orthoFlydate.zip</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</origin>
+<pubdate>201303</pubdate>
+<title>Photo center points for NJ 2012 orthophotography</title>
+<geoform>vector digital data</geoform>
+<othercit>
+available on request from OGIS; email to njgin@oit.state.nj.us.
+
+Data supplied by PhotoScience, Inc.
+</othercit>
+<onlink>none</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Radiometry is verified by visual inspection of the digital orthophoto.  Slight systematic radiometric differences may exist between adjacent orthoimage files; these are due primarily to differences in source image capture dates and sun angles along flight lines. These differences can be observed in an image's general lightness or darkness when it is compared to adjacent orthoimage file coverages. Tonal balancing may be performed over a group of images during the mosaicking process which may serve to lighten or darken adjacent images for better color tone matching.</attraccr>
+</attracc>
+<logic>All GeoTIFF tagged data and image file sizes are validated using commercial GIS software to ensure proper loading before being archived.   This validation procedure ensures correct physical format and field values for tagged elements.  Seamlines and tile edges are visually inspected.  Seamline mismatches are corrected unless the overall displacement is less than one pixel.</logic>
+<complete>Orthoimages are visually inspected for completeness to ensure that no gaps or image misplacements exist within and between adjacent images. These images are derived by mosaicking multiple images to ensure complete coverage. Source imagery is cloud free. Photography was flown during leaf-off in deciduous vegetation regions. Coastal areas and international boundary regions may have areas without images (void areas) in parts of the coverage. These void areas have a radiometric value of either zero (black) or 128 (uniform gray).</complete>
+<posacc>
+<horizpa>
+<horizpar>Please see AccuracyAnalyst_NJStatewide_BP.pdf for a detailed report showing the 40 control points measured to produce the NSSDA value of 1.440 feet.</horizpar>
+<qhorizpa>
+<horizpav>1.440</horizpav>
+<horizpae>NSSDA in feet.</horizpae>
+</qhorizpa>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Rettew</origin>
+<pubdate>2012</pubdate>
+<title>GPS Photo Control Survey for the State of New Jersey</title>
+<geoform>Model</geoform>
+</citeinfo>
+</srccite>
+<typesrc>CD-ROM</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2012</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>CONTROL</srccitea>
+<srccontr>Rettew of Lancaster, PA was contracted by Photo Science to perform a geodetic control survey in support of a digital orthophoto production project covering the entire state of New Jersey. The survey was done using the Global Positioning System (GPS). A combination of 40 photo identifiable objects and pre-flight targeting was used to provide ground based photo control as well as an additional 20 quality assurance control points that were incorporated in the quality assurance testing of the aerotriangulation. Photo control points have a combined local and network accuracy at 95% confidence of less than or equal to five (5) centimeters horizontally and vertically as determined by the residuals of the network adjustment.  All horizontal and vertical control was prepared under the supervision of State of New Jersey licensed Professional Land Surveyors.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Photo Science, Inc.</origin>
+<pubdate>unpublished material</pubdate>
+<title>Georeferenced Single Frames</title>
+<geoform>remote-sensing image</geoform>
+</citeinfo>
+</srccite>
+<srcscale>19200</srcscale>
+<typesrc>external hard drive</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>20120315</begdate>
+<enddate>20120416</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>PHOTO</srccitea>
+<srccontr>Aerial imagery was acquired using a Zeiss/Intergraph Digital Frame camera (DMC) with a flight design that included a total of 11157 exposures in 139 flight lines. This includes the acquisition of supplemental imagery over the cities of Atlantic City (4 Flight Lines; 141 Frames), Jersey City (6 Flight Lines; 158 Frames), Newark (5 Flight Lines; 120 Frames), and Trenton (7 Flight Lines; 200 Frames) that was used to minimize building lean in the orthophotography production process.  Aerial imagery was supplemented with the simultaneous acquisition of airborne GPS/IMU data, which captured the ground coordinate for the nadir point of each photograph. Aerial imagery was exposed at an altitude of 9600' above mean terrain yielding an approximate scale of 1:19200.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>BAE Systems</origin>
+<pubdate>Unknown</pubdate>
+<title>Aerotriangulation</title>
+<geoform>model</geoform>
+</citeinfo>
+</srccite>
+<typesrc>CD-ROM</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>20120314</begdate>
+<enddate>20120416</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>AT</srccitea>
+<srccontr>
+Softcopy aerotriangulation was performed utilizing the airborne GPS/IMU data, GPS ground control and image coordinate measurements allowing the direct computation of the exterior orientation parameters for each image of the project. Smartbase was used.  Mean differential baseline lengths are as follows:
+
+For March 14, 2012 (DMC 137) the mean distance from the base station NJBR was 34518.853 meters.
+For the first lift, "Mission A" flown March 14, 2012 (DMC 033) the mean distance from the base station NJGT was 78442.953 meters.
+For the second lift, "Mission B" flown March 14, 2012 (DMC 033) the mean distance from the base station NJDY was 48413.447 meters.
+For March 15, 2012 (DMC 137) the mean distance from the base station NJBR was 21960.568 meters.
+For March 18, 2012 (DMC 137) the mean distance from the base station NJBR was 30801.572 meters.
+For the first lift, "Mission A" flown March 19, 2012 (DMC 137) the mean distance from the base station NJGT was 28820.576 meters.
+For the second lift, "Mission B" flown March 19, 2012 (DMC 137) the mean distance from the base station NJBR was 26821.511 meters.
+For March 23, 2012 (DMC 137) the mean distance from the base station NJTR was 79062.228 meters.
+For March 23, 2012 (DMC 033) the mean distance from the base station CTBR was 173337.879 meters.
+For the first lift, "Mission A" flown March 27, 2012 (DMC 137) the mean distance from the base station NJTR was 56666.527 meters.
+For the second lift, "Mission B" flown March 27, 2012 (DMC 137) the mean distance from the base station NJHC was 72330.297 meters.
+For the first lift, "Mission A" flown March 30, 2012 (DMC 137) the mean distance from the base station NJOC was 24444.114 meters.
+For the second lift, "Mission B" flown March 30, 2012 (DMC 137) the mean distance from the base station NJHC was 31941.652 meters.
+For the first lift, "Mission A" flown April 3, 2012 (DMC 137) the mean distance from the base station NJTP was 16685.94 meters.
+For the second lift, "Mission B" flown April 3, 2012 (DMC 137) the mean distance from the base station NYMD was 70009.782 meters.
+For April 4, 2012 (DMC 137) the mean distance from the base station NJI2 was 18806.695 meters.
+For April 5 in Atlantic City (DMC 013) the mean distance from the base station SHK5 was 127719.279 meters.
+For April 5, 2012 (DMC 137) the mean distance from the base station NJTW was 35417.582 meters.
+For April 5 in Atlantic City (DMC 126) the mean distance from the base station NJDY was 49108.955 meters.
+For April 6, 2012 (DMC 013) the mean distance from the base station LUMT was 107369.22 meters.
+For the first lift, "Mission A" flown April 6, 2012 (DMC 137) the mean distance from the base station NJMT was 7058.517 meters.
+For the second lift, "Mission B" flown April 6, 2012 (DMC 137) the mean distance from the base station NJMT was 7005.581 meters.
+For the first lift, "Mission A" flown April 13, 2012 (DMC 137) the mean distance from the base station NJHC was 42062.713 meters.
+For the second lift, "Mission B" flown April 13, 2012 (DMC 137) the mean distance from the base station NJDY was 12292.733 meters.
+For the third lift, "Mission C" flown April 13, 2012 (DMC 137) the mean distance from the base station NJDY was 42760.847 meters.
+For April 14, 2012 (DMC 137) the mean distance from the base station  NJDY was 45550.323 meters.
+For April 16, 2012 (DMC 137) the mean distance from the base station NJDY was 49108.955 meters.
+</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Public Domain Elevation Surfaces</origin>
+<pubdate>unpublished material</pubdate>
+<title>DEM/DTM</title>
+<geoform>model</geoform>
+</citeinfo>
+</srccite>
+<typesrc>DVD</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>2002</begdate>
+<enddate>2009</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>DEM</srccitea>
+<srccontr>A compilation of topographic land form elevation datasets developed through photogrammetric data capture and/or LiDAR provided from various sources for use in developing digital ortho imagery.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>Digital aerial imagery was obtained using a large format Z/I Digital Mapping Camera system (DMC) equipped with Airborne GPS/IMU covering the entire State of New Jersey.  A total of 139 flight lines with 11157 frames were collected in the spring of 2012 in multi-spectral (RGB and NIR) 16 bits per band format. This includes the acquisition of supplemental imagery over the cities of Atlantic City (4 Flight Lines; 141 Frames), Jersey City (6 Flight Lines; 158 Frames), Newark (5 Flight Lines; 120 Frames), and Trenton (7 Flight Lines; 200 Frames) that was used to minimize building lean in the orthophotography production process.  The imagery was acquired with a 4.7244" (120 m/m) focal length at an altitude above mean terrain of 9,600' to yield a raw pixel resolution of 0.96' suitable for photogrammetric mapping and orthophoto production.  The imagery was collected during leaf off conditions in the spring of 2012 under conditions free from clouds and cloud shadows, smoke, fog, haze, light streaks, snow, ice on water bodies, foliage, flooding, and excessive soil moisture. The sun angle threshold was 35 degrees south of US Highway 1 and 30 degrees north of US Highway 1.   Due to a compression of the acquisition window caused by an abnormally warm spring flying season these sun angle requirements were relaxed after consultation with USGS and the state of New Jersey.  The imagery consisted of panchromatic, blue, green, red and near infrared bands.  The three color bands and near infrared bands have been pan sharpened and archived as frame imagery. Imagery for the photogrammetric mapping and digital orthophotos was captured according to the USGS Contract No. G10PC00026; USGS Task Order: G12PD00392; Requisition Reference Number: 0040035232 regarding, snow, haze and cloud cover, and modified as appropriate to accommodate the requirements specific to Z/I DMC camera technologies and as specified in this scope of work.</procdesc>
+<srcused>RAWs</srcused>
+<procdate>2012</procdate>
+<srcprod>Georefs</srcprod>
+</procstep>
+<procstep>
+<procdesc>A total of 200 ground based photo control points including 40 blind QC ground based photo control points were established throughout New Jersey using a combination of conventional and GPS survey methods in order to support softcopy aerotriangulation and photogrammetric mapping meeting the accuracies specified in this Scope of Work.  This control supplemented the exposure station control obtained from the onboard Airborne Global Positioning System (ABGPS) and Inertial Measurement Unit (IMU). Photo control points established for this project have a combined local and network accuracy at 95% confidence of less than or equal to five (5) centimeters horizontally and vertically as determined by the residuals of the network adjustment. Ground control collection followed requirements set forth in USGS Contract No. G10PC00026; USGS Task Order: G12PD00392; Requisition Reference Number: 0040035232, and were modified as appropriate to accommodate the specifications related to ABGPS collection specific to these end photogrammetric mapping requirements. All horizontal and vertical control was prepared under the supervision of State of New Jersey licensed Professional Land Surveyors.</procdesc>
+<srcused>Geodetic control</srcused>
+<procdate>201207</procdate>
+<srcprod>Control</srcprod>
+</procstep>
+<procstep>
+<procdesc>Softcopy aerotriangulation was performed on three large blocks of imagery utilizing the airborne GPS/IMU data, GPS ground control and image coordinate measurements allowing the direct computation of the exterior orientation parameters for each image frame to support the photogrammetric process and orthophoto production.  The adjusted Root Mean Square Error (RMSE) of all horizontal and vertical control points used for any single block adjustment was 1.0 foot or better.  At the same time, residuals on each refined image coordinate remain less than 12 microns and residuals on any horizontal or vertical control point did not exceed plus or minus 2.0 feet.  Within each block, the blind QA ground survey coordinates were within two times the RMSE (two feet) of the corresponding AT derived coordinates.</procdesc>
+<srcused>ABGPS</srcused>
+<srcused>Control</srcused>
+<srcused>RAWs</srcused>
+<procdate>2012</procdate>
+<srcprod>AT</srcprod>
+</procstep>
+<procstep>
+<procdesc>This process involved the development of seamless topographic landform elevation dataset utilizing existing LiDAR derived public domain elevation data sets to support the production of digital orthophotography that meet or exceed required orthophoto horizontal accuracy. Existing terrain surfaces utilized for this project included the maximum utilization of government supplied airborne topographic LiDAR bare earth data sets of various vintages, accuracies and post spacing as well as DEM data from the 2012 New Jersey Orthophoto Project as needed to complete a 2012 Statewide orthophoto DEM source. The topographic features included a grid of elevation points and may include break lines that define ridges, valleys, edge of water, transportation features and abrupt changes in elevation.  The final DTM is suitable for orthophoto production only (not suitable for contour generation).  The DTM is used to then generate a Triangulated Irregular Network (TIN) to support orthophoto production.</procdesc>
+<srcused>DTM</srcused>
+<srcused>DEM</srcused>
+<srcused>LiDAR</srcused>
+<procdate>2012</procdate>
+<srcprod>DTM/DEM</srcprod>
+</procstep>
+<procstep>
+<procdesc>Utilizing all four pan-sharpened bands [blue (B), green (G), red(R) and near infrared (IR)] digital orthorectification was performed using cubic convolution algorithms resulting in a spatial and radiometric transformation of the digital image from line/sample space into the New Jersey State Plane Coordinate System, NAD 83, US Survey Feet. The interior and exterior orientation parameters from the aerotriangulation process were used to project each pixel into the ground coordinate system, while the ortho grade DEM/DTM was used to correct for relief displacement. Radiometric correction software and techniques were used to create orthophoto files that minimize the appearance of image seams and without loss of feature signature. Orthophotos are checked for geometric accuracy, image quality and tonally balanced to produce a uniform contrast and tone across the entire project. The individual overlapping orthophoto frames were mosaicked together and the final tiles were extracted from the image set to adhere to the New Jersey 5,000' x 5,000' tiling scheme consisting of 9,202 individual ortho tiles within the State Plane Delivery and 9831 within the UTM Delivery. State Plane Delivery included digital ortho photos at a 1' pixel ground sample distance in the following formats: 16 bit, 4 band (RGB and NIR) uncompressed GeoTIFF; and 8 bit, 4 band (RGB) compressed MrSID. UTM Delivery produced for the USGS was created from the State Plane GeoTIFFs via Global Mapper, included 8 bit, 3 band (RGB) GeoTIFFs.  The ortho photos meet a horizontal accuracy of four (4) feet or less at 95% confidence level when compared to higher accuracy check points based on NSSDA testing standards.</procdesc>
+<srcused>Georefs</srcused>
+<srcused>AT</srcused>
+<srcused>Control</srcused>
+<srcused>DTM/DEM</srcused>
+<procdate>2012</procdate>
+<srcprod>Orthos</srcprod>
+</procstep>
+<procstep>
+<procdesc>MrSID tiles reprocessed by Photo Science using 1:10 compression and re-published. Metadata edited by NJOIT OGIS.</procdesc>
+<procdate>20130508</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Raster</direct>
+<rastinfo>
+<rasttype>pixel</rasttype>
+<rowcount>5000</rowcount>
+<colcount>5000</colcount>
+</rastinfo>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>State Plane Coordinate System 1983</gridsysn>
+<spcs>
+<spcszone>2900</spcszone>
+<transmer>
+<sfctrmer>0.999900</sfctrmer>
+<longcm>-74.500000</longcm>
+<latprjo>38.833333</latprjo>
+<feast>492125.000000</feast>
+<fnorth>0.000000</fnorth>
+</transmer>
+</spcs>
+</gridsys>
+<planci>
+<plance>row and column</plance>
+<coordrep>
+<absres>1.0</absres>
+<ordres>1.0</ordres>
+</coordrep>
+<plandu>survey feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983 (NSRS 2007)</horizdn>
+<ellips>Geodetic Reference System 1980</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>A digital number from 1 to 4096 will be assigned to each pixel.  This number refers to a color look-up table which will contain the red, green, blue, and Near Infrared values, each from 1 to 4096, for that digital number.</eaover>
+<eadetcit>Scope of Work, State of New Jersey, Office of Information Technology, Photogrammetric Mapping and Digital Orthophoto Production, Contract No. W91333L-05-D-0003, Task Order No. DJ04, Issued to: PBS and J, Tom Schweitzer, 402 BNA Drive, Suite 350, Nashville, TN, 37217, Issued by: US Army Corps of Engineers, St. Louis District, 1222 Spruce Street, Room 4.207, St. Louis, MO 63103.</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>P.O. Box 212</address>
+<city>Trenton</city>
+<state>NJ</state>
+<postal>08625-0212</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>609-633-9103</cntvoice>
+<cntfax>609-633-0400</cntfax>
+<cntemail>njgin@oit.state.nj.us</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Downloadable data</resdesc>
+<distliab>The State of New Jersey provides the 2012 Digital Orthophotography "as is".  The State makes no guarantee or warranty concerning the accuracy of information contained in the data.  Also, the State makes no warranty, either expressed or implied, regarding the condition of the product or its fitness for any particular purpose.  The burden for determining fitness for use lies entirely with the user.  Although these data files have been processed successfully on computers at the State, no warranty is made by the State regarding the use of the data on any other system, nor does the fact of distribution constitute or imply such a warranty.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>MrSID, 4 band natural color and NIR 5K tiles, lossy compression 10:1</formname>
+<formvern>4</formvern>
+<formspec>Generation 4 (.mg4)</formspec>
+<filedec>ZIP</filedec>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://njgin.nj.gov/OIT_IW/index.jsp</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>none</fees>
+<ordering>MrSID images in 5K tiles may be downloaded from the NJ Image Warehouse via a web browser.</ordering>
+</stdorder>
+<custom>
+For additional acquisition methods, please refer to https://njgin.state.nj.us, for current distribution information.
+			
+There is a Web Map Service of the entire set of imagery, published by NJOIT, OGIS. Instructions for access are available from the NJGIN home page under News and Events, "Click here to see statewide imagery layers available through our WMS" . The service also will have a metadata record on NJGIN, searchable as Content Type "Live data and maps."
+
+GEOTIFF tiles also are available, but only on user-supplied media. Contact NJGIN for further information.
+</custom>
+<availabl>
+<timeinfo>
+<rngdates>
+<begdate>201203</begdate>
+<enddate>present</enddate>
+</rngdates>
+</timeinfo>
+</availabl>
+</distinfo>
+<metainfo>
+<metd>20130508</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS)</cntorg>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>PO Box 212</address>
+<city>Trenton</city>
+<state>NJ</state>
+<postal>08625-0212</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>609.633.9103</cntvoice>
+<cntfax>609.633.0400</cntfax>
+<cntemail>njgin@oit.state.nj.us</cntemail>
+<hours>Monday through Friday 8:00 AM to 4:00 PM (Central Time)</hours>
+<cntinst>
+Original metadata written by Photo Science. 
+					
+Below is the contact information for Photo Science in Lexington, KY:
+Ryan Elizabeth Bowe, GISP
+Photo Science
+523 Wellington Way, Suite 325
+Lexington, KY 40503
+rebowe@photoscience.com
+859-277-8700
+
+Below is the contact information for EROS Data Center in Sioux Falls, SD:
+U.S. Geological Survey
+Customer Services, EROS Data Center, 47914 252nd Street, Sioux Falls, SD 57198-0001
+voice: 1-800-252-4547
+fax: 1-605-594-6589
+email: custserv@usgs.gov
+TDD/TTY: 1-605-594-6933
+
+This is the digital data storage and distribution center for the USGS. Metadata information can also be obtained through online services using The National Map Viewer, at http:/nationalmap.usgs.gov or EarthExplorer, at http://earthexplorer.usgs.gov.
+</cntinst>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+</metainfo>
+</metadata>

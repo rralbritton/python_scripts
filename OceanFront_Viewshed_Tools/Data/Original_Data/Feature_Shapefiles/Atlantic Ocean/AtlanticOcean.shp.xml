@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>New Jersey Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information Systems (BGIS)</origin>
+				<pubdate>20101101</pubdate>
+				<title>National Hydrography Dataset (NHD) Waterbody 2002</title>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Trenton, NJ</pubplace>
+					<publish>NJ Department of Environmental Protection (NJDEP)</publish>
+				</pubinfo>
+				<onlink>http://www.state.nj.us/dep/gis/digidownload/zips/statewide/nhdwaterbody2002shp.zip</onlink>
+				<ftname Sync="TRUE">nhdwaterbody2002</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>NOTE:
+
+This metadata file contains information for Waterbody features delineated for NJ from 2002 color infrared (CIR) imagery with attributes extracted from the National Hydrography Dataset (NHD) .
+
+Digitizing of this data was initally done by Aerial Information Systems, Inc., Redlands, CA, under direction of the New Jersey Department of Environmental Protection (NJDEP), Bureau of Geographic Information System (BGIS).
+
+Conflation of USGS 1:24,000 High resolution NHD attributes was done by Data Enhancement Services, LLC  (DES) partenered with Civil Solutions.  This statewide conflation of NHD High resolution information was completed in 2010.
+All QA/QC was done by NJDEP, Bureau of GIS and USGS.
+This represents a subset of the statewide extract for NJ dated August 25, 2010.
+
+
+Note:  This shapefile was generated from a SDE feature class layer.  Some attribute names over 10 characters were truncated during this process.  This metadata file has been modified to accommodate truncated field names.
+</abstract>
+			<purpose>
+The data set will provide Waterbody  information for regulators, planners, and others interested in hydrography data.
+
+The use of the NHD data layers in hydrologic analyses will provide a means of monitoring "the health of the citizens and ecosystems of New Jersey" through the use of diverse applications.
+
+This data set is intended to serve as a resource for analysis rather than regulatory delineations. The NJDEP may change the line work based on more in depth analysis and field inspection for regulatory purposes.
+
+NJDEP/BGIS is a stewardship partner with USGS in the development of Local resolution data which is NHD compliant.
+</purpose>
+			<supplinf>
+Users of this data are strongly urged to become familiar with the USGS National Hydrography Dataset (NHD) review documents, as well as others included below, before using the data set.
+
+http://nhd.usgs.gov/index.html
+</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2002</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>Irregular</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-75.649692</westbc>
+				<eastbc>-73.793383</eastbc>
+				<northbc>41.377534</northbc>
+				<southbc>38.778716</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">176590.166025</leftbc><rightbc Sync="TRUE">686045.334448</rightbc><bottombc Sync="TRUE">-17981.248588</bottombc><topbc Sync="TRUE">926741.404286</topbc></lboundng><minalti Sync="TRUE">0.000000</minalti><maxalti Sync="TRUE">0.000000</maxalti></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Stream</themekey>
+				<themekey>Flowline</themekey>
+				<themekey>River</themekey>
+				<themekey>Water body</themekey>
+				<themekey>water quality</themekey>
+				<themekey>watersheds</themekey>
+				<themekey>watershed management areas</themekey>
+				<themekey>NHD</themekey>
+				<themekey>NJDEP</themekey>
+				<themekey>Hydrography</themekey>
+				<themekey>Stream / River</themekey>
+				<themekey>Lake / Pond</themekey>
+				<themekey>Canal / Ditch</themekey>
+				<themekey>Reservoir</themekey>
+				<themekey>Spring / Seep</themekey>
+				<themekey>Swamp / Marsh</themekey>
+				<themekey>Artificial Path</themekey>
+				<themekey>Reach Code</themekey>
+				<themekey>WBD</themekey>
+				<themekey>Watershed Boundary Dataset</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>inlandWaters</themekey>
+			</theme>
+			<theme>
+				<themekt>U.S. Department of the Interior, U.S. Geological Survey, 1999, Standards for National Hydrography Dataset (http://www.usgs.gov/pubprod/reference.html#standards)</themekt>
+				<themekey>NHD</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>New Jersey</placekey>
+				<placekey>NJ</placekey>
+				<placekey>WMA</placekey>
+			</place>
+			<place>
+				<placekt>U.S. Department of Commerce, 1977, Countries, dependencies, areas of special sovereignty, and their principal administrative divisions (Federal Information Processing Standards 10-3): Washington, D.C., National Institute of Standards and Technology.</placekt>
+				<placekey>US</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2002</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>In most cases, a downloadable shapefile (.zip) version of this layer is also available. Information to download the shapefile can be found in the Distribution Section of this metadata record. This data layer is shown in the NJDEP's NJ-GeoWeb mapping application accessible through the Online Linkage: http://www.nj.gov/dep/gis/geowebsplash.htm</accconst>
+		<useconst>
+New Jersey Department of Environmental Protection (NJDEP)
+
+Data Distribution Agreement
+
+I. Description of Data to be Provided.
+
+The data provided herein are distributed subject to the following conditions and restrictions:
+
+SUBJECT DATA LAYERS
+
+For all data contained herein, NJDEP makes no representations of any kind, including, but not limited to, the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the digital data layers furnished hereunder.  NJDEP assumes no responsibility to maintain them in any manner or form.
+
+II.Terms of Agreement
+
+1. Digital data received from the NJDEP are to be used solely for internal purposes in the conduct of daily affairs.
+
+2. The data are provided, as is, without warranty of any kind and the user is responsible for understanding the accuracy limitations of all digital data layers provided herein, as documented in the accompanying cross-reference files (see SUPPLEMENTAL INFORMATION).  Any reproduction or manipulation of the above data must ensure that the coordinate reference system remains intact.
+
+3. Digital data received from the NJDEP may not be reproduced or redistributed for use by anyone without first obtaining written permission from the NJDEP.  This clause is not intended to restrict distribution of printed mapped information produced from the digital data.
+
+4. Any maps, publications, reports, or other documents produced as a result of this project that utilize NJDEP digital data will credit the NJDEP's Geographic Information System (GIS) as the source of the data with the following credit/disclaimer:
+
+"This (map/publication/report) was developed using New Jersey Department of Environmental Protection Geographic Information System digital data, but this secondary product has not been verified by NJDEP and is not state-authorized."
+
+5.    Users shall require any independent contractor, hired to undertake work that will utilize digital data obtained from the NJDEP, to agree not to use, reproduce, or redistribute NJDEP GIS data for any purpose other than the specified contractual work.  All copies of NJDEP GIS data utilized by an independent contractor will be required to be returned to the original user at the close of such contractual work.
+
+Users hereby agree to abide by the use and reproduction conditions specified above and agree to hold any independent contractor to the same terms.  By using data provided herein, the user acknowledges that terms and conditions have been read and that the user is bound by these criteria.
+</useconst>
+		<datacred>
+Craig Coutros and Seth Hackman
+NJ Department of Environmental Protection (NJDEP), Office of Information Resources Management (OIRM), Bureau of Geographic Information System (BGIS)
+John Bocchino: NJDEP, Metadata Compilier
+</datacred>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.6.1500</native>
+		<crossref>
+			<citeinfo>
+				<origin>United States Geological Survey (USGS)</origin>
+				<pubdate>Unknown</pubdate>
+				<title>USGS National Hydrography Dataset Documentation Website</title>
+				<geoform>website</geoform>
+				<pubinfo>
+					<pubplace>Reston, Va</pubplace>
+					<publish>USGS</publish>
+				</pubinfo>
+				<onlink>http://nhd.usgs.gov/documentation.html</onlink>
+			</citeinfo>
+		</crossref>
+		<natvform Sync="TRUE">Shapefile</natvform><browse><browsen>http://www.state.nj.us/dep/gis/digidownload/images/statewide/nhdwaterbody2002.gif</browsen><browsed>image</browsed><browset>GIF</browset></browse></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>
+NJDEP checked for delineation accuracy, connectivity, digitized "flow" direction, invalid attribute codes and corrected as identified.  Empty fields will be populated in future updates.
+
+Feature types, characteristics, and other attributes conform to the Standards for National Hydrography Dataset (USGS, 1999) as of the date they were loaded into the database.  All names were validated against a current extract from the Geographic Names Information System (GNIS).  The entry and identifier for the names match those in the GNIS.
+
+GNIS_Name is official only if identified by a GNIS_ID.   Any Flowline without a GNIS_ID but displays a GNIS_Name or "tributary" identifier is not official and is for NJDEP referencing purposes only.  These are subject to change when submissions are made to the Board of Geographic Names.
+</attraccr>
+		</attracc>
+		<logic>Lines conform to topological rules. Lines intersect only at nodes, and all nodes anchor the ends of lines.  Lines do not overshoot or undershoot other lines where they are supposed to meet.  There are no duplicate lines.  Lines bound areas and lines identify the areas to the left and right of the lines.</logic>
+		<complete>
+Data is available statewide for New Jersey.
+
+This data represents a subset of the August 28, 2010  statewide extract of NHD High Resolution dataset after NJ completed a conflation of NHD attributes to local resolution features.
+
+In general, all polygonal water features were reselected from NHDWaterbody and NHDArea feature classes and combined to create this data layer.
+
+This data is considered Local resolution (1:2400) or better and conforms to all USGS NHD rules. ReachCodes have been defined on all features. Names were applied from the GNIS database during the final upload into the NHD.
+</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>These maps were compiled to meet National Map Accuracy Standards at 1:2400</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>NA</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Keystone Aerial Surveys</origin>
+						<pubdate>20020411</pubdate>
+						<pubtime>Unknown</pubtime>
+						<title>Aerial Imagery Acquisition of the State of New Jersey</title>
+						<geoform>remote-sensing image</geoform>
+						<pubinfo>
+							<pubplace>Philadelphia, PA</pubplace>
+							<publish>Keystone Aerial Surveys</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>2400</srcscale>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>20020218</begdate>
+							<enddate>20020411</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Aerial Photography</srccitea>
+				<srccontr>Digital color infrared (CIR) orthophotography of New Jersey in State Plane NAD83 Coordinates, U.S. Survey Feet. The digital orthophotography was produced at a scale of 1:2400 (1"=200') with a 1 foot pixel resolution.  Stream data for 2002 was digitized directly from 2002 digital image files.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>United States Geological Survey (USGS); NJDEP</origin>
+						<pubdate>1995/97</pubdate>
+						<title>1995/97 CIR Digital Ortho Quarterquads</title>
+						<geoform>remote-sensing image</geoform>
+						<pubinfo>
+							<pubplace>Reston, Va</pubplace>
+							<publish>USGS</publish>
+						</pubinfo>
+						<othercit>Digital images were created from 1:40000 scale NAPP CIR images by USGS, referenced in UTM, NAD83.  These images were then projected to New Jersey State Plane Feet Coordinates (NJSPF), NAD83, and compressed to JPEG images files.  These NJSPF compressed files were used in the development of the this data set. The original images in UTM are available from the USGS website.  The NJSPF versions are available from the NJDEP site.  Both sites have online and CD distribution of these images.</othercit>
+						<onlink>http://edc.usgs.gov</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>12000</srcscale>
+				<typesrc>online; CDROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1995</begdate>
+							<enddate>1997</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>USGS; NJDEP</srccitea>
+				<srccontr>Land use/land cover for 1995/97 was digitized directly from 1995/97 digital image files.  Photographic transparencies of the CIR images used to create the digital files were also viewed stereoscopically to aid in land use/land cover determinations.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>
+Photo interpretation of 2002 CIR digital imagery, interactive editing and initial QA/QC was done by Aerial Information Systems, Redlands, CA.  Final QA/QC and final data formatting was done by NJDEP/BGIS.  All Data sets were processed and delivered by Hydrologic Unit 8 (HU8 - Subbasin) and this coding was maintained in the final versions.  The first version was released as Streams_2002.
+
+This update to Streams_2002 data now includes NHD compliant attributes and coding.  NJDEP/BGIS completed a statewide conflation in 2010 to meet the USGS National Hydrography Dataset standards.  The conflation of 1:24,000 NHD high resolution feature attributes to this data was done by Data Enhancement Services, LLC under the direction of Civil Solutions beginning in 2009.   Initial QA/QC was done by NJDEP/BGIS followed by a review by USGS prior to upload into the National database.
+
+QA/QC involved verifying that Flow Direction of each flowline is correct to facilitate the development of geometric networks.  Name Attributes are consistant with the USGS Geographic Names (GNIS) were transferred to this layer appropriately.  All unnamed tributaries flowing into a named water course stream have "tributary" extension in the GNIS_Name field.  GNIS_ID, GNIS_NAME, FTYPE, and FCODE attributes are NHD compliant and were transferred from the NHDgeo data layers.
+
+Only features having a GNIS_ID are official. All other features represent local names subject to review.
+
+This product is an interim product subject to attribute correction.
+</procdesc>
+				<procdate>2010</procdate>
+			</procstep>
+		</lineage>
+		<cloud>0</cloud>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="nhdwaterbody2002">
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>26490</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="nhdwaterbody2002"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">26490</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">TRUE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000328</absres>
+						<ordres>0.000328</ordres>
+					</coordrep>
+					<plandu>survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Transverse Mercator</mapprojn><transmer><sfctrmer Sync="TRUE">0.999900</sfctrmer><longcm Sync="TRUE">-74.500000</longcm><latprjo Sync="TRUE">38.833333</latprjo><feast Sync="TRUE">492125.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></transmer></mapproj></planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_New_Jersey_FIPS_2900_Feet</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum>North American Vertical Datum of 1988</altdatum>
+				<altres>0.000100</altres>
+				<altunits>feet</altunits>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="nhdwaterbody2002">
+			<enttyp>
+				<enttypl>NHDWaterbody2002</enttypl>
+				<enttypd>National Hydrography Dataset (NHD) Waterbody 2002</enttypd>
+				<enttypds>USGS</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">26490</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ComID</attrlabl>
+				<attrdef>10-digit integer that uniquely identifies the occurrence of each feature.</attrdef>
+				<attrdefs>USGS</attrdefs>
+				<attrdomv>
+					<udom>Unique identifier assigned by GNIS.</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attalias Sync="TRUE">ComID</attalias></attr>
+			<attr>
+				<attrlabl>Permanent_</attrlabl>
+				<attrdef>A permanent identifer that uniquely identifies each feature.</attrdef>
+				<attrdefs>USGS</attrdefs>
+				<attrdomv>
+					<udom>Unique identifier assigned by GNIS.</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><attalias Sync="TRUE">Permanent_</attalias></attr>
+			<attr>
+				<attrlabl>FDate</attrlabl>
+				<attrdef>Date of last feature modification.</attrdef>
+				<attrdefs>USGS</attrdefs>
+				<attrdomv>
+					<udom>Date of last update into the NHD</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth><attalias Sync="TRUE">FDate</attalias></attr>
+			<attr>
+				<attrlabl>Resolution</attrlabl>
+				<attrdef>Source resolution. Currently NHD is available as separate resolutions.</attrdef>
+				<attrdefs>USGS</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Local</edomv>
+						<edomvd>greater than 1:12,000</edomvd>
+						<edomvds>USGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>High</edomv>
+						<edomvd>1:24,000/12,000</edomvd>
+						<edomvds>USGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Medium</edomv>
+						<edomvd>1:100,000</edomvd>
+						<edomvds>USGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attalias Sync="TRUE">Resolution</attalias></attr>
+			<attr>
+				<attrlabl>GNIS_ID</attrlabl>
+				<attrdef>Unique identifier assigned by GNIS.</attrdef>
+				<attrdefs>USGS</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>GNIS</codesetn>
+						<codesets>USGS</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><attalias Sync="TRUE">GNIS_ID</attalias></attr>
+			<attr>
+				<attrlabl>GNIS_Name</attrlabl>
+				<attrdef>Proper name, specific term, or expression by which a particular geographic entity is known.</attrdef>
+				<attrdefs>USGS</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>GNIS</codesetn>
+						<codesets>USGS</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">65</attwidth><attalias Sync="TRUE">GNIS_Name</attalias></attr>
+			<attr>
+				<attrlabl>AreaSqKm</attrlabl>
+				<attrdef>Area of feature in Square Kilometers</attrdef>
+				<attrdefs>USGS</attrdefs>
+				<attrdomv>
+					<udom>Area of fetaure in Square Kilometers</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attalias Sync="TRUE">AreaSqKm</attalias><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>Elevation</attrlabl>
+				<attrdef>The vertical distance from a given datum.</attrdef>
+				<attrdefs>USGS</attrdefs>
+				<attrdomv>
+					<udom>Elevation in meters assigned by USGS</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attalias Sync="TRUE">Elevation</attalias><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>ReachCode</attrlabl>
+				<attrdef>Unique identifier composed of two parts. The first eight digits is the subbasin code as defined by FIPS 103. The next six digits are randomly assigned, sequential numbers that are unique within a subbasin, 8 digit subbasin followed by unique id.</attrdef>
+				<attrdefs>USGS</attrdefs>
+				<attrdomv>
+					<udom>Unique identifier assigned by GNIS.</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">14</attwidth><attalias Sync="TRUE">ReachCode</attalias></attr>
+			<attr>
+				<attrlabl>FType</attrlabl>
+				<attrdef>Three-digit integer value; unique identifier of a feature type.</attrdef>
+				<attrdefs>USGS</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Feature Catalog</codesetn>
+						<codesets>USGS</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attalias Sync="TRUE">FType</attalias></attr>
+			<attr>
+				<attrlabl>FCode</attrlabl>
+				<attrdef>Five-digit integer value; composed of the feature type and combinations of characteristics and values.</attrdef>
+				<attrdefs>USGS</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Feature Catalog</codesetn>
+						<codesets>USGS</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attalias Sync="TRUE">FCode</attalias></attr>
+			<attr>
+				<attrlabl>FType_Desc</attrlabl>
+				<attrdef>Text description of FType Domain value</attrdef>
+				<attrdefs>NJDEP</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Feature Catalog</codesetn>
+						<codesets>USGS</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attalias Sync="TRUE">FType_Desc</attalias></attr>
+			<attr>
+				<attrlabl>FCode_Desc</attrlabl>
+				<attrdef>Text description of FCode Domain value</attrdef>
+				<attrdefs>NJDEP</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Feature Catalog</codesetn>
+						<codesets>USGS</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><attalias Sync="TRUE">FCode_Desc</attalias></attr>
+			<attr>
+				<attrlabl>Shape_Leng</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attalias Sync="TRUE">Shape_Leng</attalias><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attalias Sync="TRUE">Shape_Area</attalias><atnumdec Sync="TRUE">11</atnumdec></attr>
+		</detailed>
+		<overview>
+			<eadetcit>http://nhd.usgs.gov/documentation.html</eadetcit>
+			<eaover>Note:  This shapefile was generated from a SDE feature class layer.  Some attribute names over 10 characters were truncated during this process.  This metadata file has been modified to accommodate truncated field names.
+</eaover></overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NJDEP/OIRM/BGIS</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>401 East State Street, First Floor, PO Box 428</address>
+					<city>Trenton</city>
+					<state>New Jersey</state>
+					<postal>08625-0428</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>609-777-0672</cntvoice>
+				<cntfax>609-292-7900</cntfax>
+				<cntemail>gisnet@dep.state.nj.us</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>See "Use Constraints"</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>AVSHP</formname>
+					<formvern>9x</formvern>
+					<filedec>WinZip</filedec>
+					<transize Sync="TRUE">156.135</transize><dssize Sync="TRUE">156.135</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.nj.gov/dep/gis/nhd2002.html</networkr></networka>
+						</computer>
+					</onlinopt>
+					<offoptn>
+						<offmedia>none</offmedia>
+						<recfmt>none</recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>none</fees>
+			<ordering>none</ordering>
+		</stdorder>
+		<custom>none</custom>
+	</distinfo>
+	<metainfo>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Craig Coutros</cntper>
+					<cntorg>NJDEP/OIRM/BGIS</cntorg>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>401 East State Street, Box 428</address>
+					<city>Trenton</city>
+					<state>New Jersey</state>
+					<postal>08625</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>609-777-0672</cntvoice>
+				<cntfax>609-292-7900</cntfax>
+				<cntemail>gisnet@dep.state.nj.us</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta><metd Sync="TRUE">20110208</metd><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20130823</CreaDate><CreaTime>11441800</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20110208</SyncDate><SyncTime>11215700</SyncTime><ModDate>20110208</ModDate><ModTime>11215700</ModTime><ArcGISFormat>1.0</ArcGISFormat></Esri><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc></onLineSrc></distorTran></distributor></distInfo></metadata>
